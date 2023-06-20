@@ -1,6 +1,6 @@
 import {useState} from 'react';
 import './LoginPage.css'
-import Input from '../components/input';
+import Input from '../components/Input';
 
 const LoginPage = () => {
     const [email, setEmail] = useState()
