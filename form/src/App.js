@@ -1,9 +1,13 @@
 
-import LoginPage from './pages/LoginPage';
+import CreateUser from './pages/CreateUser';
+import UserList from './pages/UserList';
+import { ChakraProvider } from '@chakra-ui/react'
 
 function App() {
   return (
-   <LoginPage/>
+    <ChakraProvider>
+      <CreateUser/>
+    </ChakraProvider>
   );
 }
 

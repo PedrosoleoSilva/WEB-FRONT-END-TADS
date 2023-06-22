@@ -5,12 +5,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color: aliceblue;
 }
 
 .formContainer {
     height: 400px;
     width: 400px;
-    background-color: aliceblue;
+    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
